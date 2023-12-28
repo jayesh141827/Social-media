@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "webapplication"
+rootProject.name = "Socialmedia"
 include(":app")
  

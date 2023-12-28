@@ -18,368 +18,586 @@
             android:orientation="vertical">
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20sp"
-                android:orientation="vertical">
+                android:gravity="center"
+                android:layout_marginTop="25sp"
+                android:orientation="horizontal">
 
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:id="@+id/Instagram"
-                    android:layout_width="60sp"
-                    android:layout_height="60sp"
-                    android:src="@drawable/img2">
-
-
-                </de.hdodenhof.circleimageview.CircleImageView>
-
-                <TextView
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Instagram" />
+                    android:orientation="vertical">
 
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:id="@+id/Facebook"
-                    android:layout_width="60sp"
-                    android:layout_height="60sp"
-                    android:layout_marginLeft="80sp"
-                    android:layout_marginTop="-80sp"
-                    android:src="@drawable/img1">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/Instagram"
+                        android:layout_width="60sp"
+                        android:layout_height="60sp"
+                        android:src="@drawable/instagram">
 
 
-                </de.hdodenhof.circleimageview.CircleImageView>
+                    </de.hdodenhof.circleimageview.CircleImageView>
 
-                <TextView
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Instagram" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="80sp"
-                    android:text="Facebook" />
+                    android:layout_marginStart="20sp"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/Facebook"
+                        android:layout_width="60sp"
+                        android:layout_height="60sp"
+                        android:src="@drawable/facebook">
 
 
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:id="@+id/whatsapp"
-                    android:layout_width="60sp"
-                    android:layout_height="60sp"
-                    android:layout_marginLeft="160sp"
-                    android:layout_marginTop="-80sp"
-                    android:src="@drawable/img3">
+                    </de.hdodenhof.circleimageview.CircleImageView>
 
-                </de.hdodenhof.circleimageview.CircleImageView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Facebook" />
+                </LinearLayout>
 
-                <TextView
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="160sp"
-                    android:text="whatsapp" />
+                    android:layout_marginStart="20sp"
+                    android:orientation="vertical">
 
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:id="@+id/youtube"
-                    android:layout_width="60sp"
-                    android:layout_height="60sp"
-                    android:layout_marginLeft="240sp"
-                    android:layout_marginTop="-80sp"
-                    android:src="@drawable/img_4">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/whatsapp"
+                        android:layout_width="60sp"
+                        android:layout_height="60sp"
+                        android:src="@drawable/whatsapp">
 
-                </de.hdodenhof.circleimageview.CircleImageView>
+                    </de.hdodenhof.circleimageview.CircleImageView>
 
-                <TextView
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="whatsapp" />
+
+                </LinearLayout>
+
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="250sp"
-                    android:text="youtube " />
+                    android:layout_marginStart="20sp"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/youtube"
+                        android:layout_width="60sp"
+                        android:layout_height="60sp"
+                        android:src="@drawable/youtube">
+
+                    </de.hdodenhof.circleimageview.CircleImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5sp"
+                        android:text="youtube " />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="25sp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/Twitter"
+                        android:layout_width="60sp"
+                        android:layout_height="60sp"
+                        android:src="@drawable/twitter">
+
+
+                    </de.hdodenhof.circleimageview.CircleImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5sp"
+                        android:text="Twitter" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20sp"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/Telegram"
+                        android:layout_width="60sp"
+                        android:layout_height="60sp"
+                        android:src="@drawable/trligram">
+
+
+                    </de.hdodenhof.circleimageview.CircleImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Telegram" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20sp"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/Playstore"
+                        android:layout_width="60sp"
+                        android:layout_height="60sp"
+                        android:src="@drawable/playstore">
+
+                    </de.hdodenhof.circleimageview.CircleImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Playstore" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20sp"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/Classroom"
+                        android:layout_width="60sp"
+                        android:layout_height="60sp"
+                        android:src="@drawable/classroom">
+
+                    </de.hdodenhof.circleimageview.CircleImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Classroom " />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="25sp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/Chrome"
+                        android:layout_width="60sp"
+                        android:layout_height="60sp"
+                        android:src="@drawable/crom">
+
+
+                    </de.hdodenhof.circleimageview.CircleImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5sp"
+                        android:text="Chrome" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20sp"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/Google"
+                        android:layout_width="60sp"
+                        android:layout_height="60sp"
+                        android:src="@drawable/google">
+
+
+                    </de.hdodenhof.circleimageview.CircleImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5sp"
+                        android:text="Google" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20sp"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/Gmail"
+                        android:layout_width="60sp"
+                        android:layout_height="60sp"
+                        android:src="@drawable/gmail">
+
+                    </de.hdodenhof.circleimageview.CircleImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12sp"
+                        android:text="Gmail" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20sp"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/Maps"
+                        android:layout_width="60sp"
+                        android:layout_height="60sp"
+                        android:src="@drawable/maps">
+
+                    </de.hdodenhof.circleimageview.CircleImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12sp"
+                        android:text="Maps " />
+
+                </LinearLayout>
 
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="-10sp"
-                android:orientation="vertical">
+                android:layout_marginTop="25sp"
+                android:gravity="center"
+                android:orientation="horizontal">
 
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:id="@+id/Twitter"
-                    android:layout_width="60sp"
-                    android:layout_height="60sp"
-                    android:src="@drawable/img5">
-
-
-                </de.hdodenhof.circleimageview.CircleImageView>
-
-                <TextView
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="5sp"
-                    android:text="Twitter" />
+                    android:orientation="vertical">
 
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:id="@+id/Telegram"
-                    android:layout_width="60sp"
-                    android:layout_height="60sp"
-                    android:layout_marginLeft="80sp"
-                    android:layout_marginTop="-80sp"
-                    android:src="@drawable/img6">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/Drive"
+                        android:layout_width="60sp"
+                        android:layout_height="60sp"
+                        android:src="@drawable/drive">
 
 
-                </de.hdodenhof.circleimageview.CircleImageView>
+                    </de.hdodenhof.circleimageview.CircleImageView>
 
-                <TextView
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12sp"
+                        android:text="Drive" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="80sp"
-                    android:text="Telegram" />
+                    android:layout_marginStart="20sp"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/Gpay"
+                        android:layout_width="60sp"
+                        android:layout_height="60sp"
+                        android:src="@drawable/gpay">
 
 
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:id="@+id/Playstore"
-                    android:layout_width="60sp"
-                    android:layout_height="60sp"
-                    android:layout_marginLeft="160sp"
-                    android:layout_marginTop="-80sp"
-                    android:src="@drawable/img7">
+                    </de.hdodenhof.circleimageview.CircleImageView>
 
-                </de.hdodenhof.circleimageview.CircleImageView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12sp"
+                        android:text="Gpay" />
+                </LinearLayout>
 
-                <TextView
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="160sp"
-                    android:text="Playstore" />
+                    android:layout_marginStart="20sp"
+                    android:orientation="vertical">
 
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:id="@+id/Classroom"
-                    android:layout_width="60sp"
-                    android:layout_height="60sp"
-                    android:layout_marginLeft="240sp"
-                    android:layout_marginTop="-80sp"
-                    android:src="@drawable/img8">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/Hotstar"
+                        android:layout_width="60sp"
+                        android:layout_height="60sp"
+                        android:src="@drawable/hotstar">
 
-                </de.hdodenhof.circleimageview.CircleImageView>
+                    </de.hdodenhof.circleimageview.CircleImageView>
 
-                <TextView
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="08sp"
+                        android:text="Hotstar" />
+
+                </LinearLayout>
+
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="240sp"
-                    android:text="Classroom " />
+                    android:layout_marginStart="20sp"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/Flipcart"
+                        android:layout_width="60sp"
+                        android:layout_height="60sp"
+                        android:src="@drawable/flipcard">
+
+                    </de.hdodenhof.circleimageview.CircleImageView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="05sp"
+                        android:text="Flipcart " />
+
+                </LinearLayout>
 
             </LinearLayout>
+
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="-10sp"
-                android:orientation="vertical">
+                android:gravity="center"
+                android:layout_marginTop="25sp"
+                android:orientation="horizontal">
 
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:id="@+id/Chrome"
-                    android:layout_width="60sp"
-                    android:layout_height="60sp"
-                    android:src="@drawable/img_9">
-
-
-                </de.hdodenhof.circleimageview.CircleImageView>
-
-                <TextView
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="5sp"
-                    android:text="Chrome" />
+                    android:orientation="vertical">
 
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:id="@+id/Google"
-                    android:layout_width="60sp"
-                    android:layout_height="60sp"
-                    android:layout_marginLeft="80sp"
-                    android:layout_marginTop="-80sp"
-                    android:src="@drawable/img10">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/Spotify"
+                        android:layout_width="60sp"
+                        android:layout_height="60sp"
+                        android:src="@drawable/spotify">
 
 
-                </de.hdodenhof.circleimageview.CircleImageView>
+                    </de.hdodenhof.circleimageview.CircleImageView>
 
-                <TextView
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="09sp"
+                        android:text="Spotify" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="85sp"
-                    android:text="Google" />
+                    android:layout_marginStart="20sp"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/Github"
+                        android:layout_width="60sp"
+                        android:layout_height="60sp"
+                        android:src="@drawable/gitthub">
 
 
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:id="@+id/Gmail"
-                    android:layout_width="60sp"
-                    android:layout_height="60sp"
-                    android:layout_marginLeft="160sp"
-                    android:layout_marginTop="-80sp"
-                    android:src="@drawable/img11">
+                    </de.hdodenhof.circleimageview.CircleImageView>
 
-                </de.hdodenhof.circleimageview.CircleImageView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="09sp"
+                        android:text="Github" />
+                </LinearLayout>
 
-                <TextView
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="170sp"
-                    android:text="G-mail" />
+                    android:layout_marginStart="20sp"
+                    android:orientation="vertical">
 
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:id="@+id/Maps"
-                    android:layout_width="60sp"
-                    android:layout_height="60sp"
-                    android:layout_marginLeft="240sp"
-                    android:layout_marginTop="-80sp"
-                    android:src="@drawable/img12">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/Angelone"
+                        android:layout_width="60sp"
+                        android:layout_height="60sp"
+                        android:src="@drawable/angelone">
 
-                </de.hdodenhof.circleimageview.CircleImageView>
+                    </de.hdodenhof.circleimageview.CircleImageView>
 
-                <TextView
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Angelone" />
+
+                </LinearLayout>
+
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="250sp"
-                    android:text="Maps " />
+                    android:layout_marginStart="20sp"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/Groww"
+                        android:layout_width="60sp"
+                        android:layout_height="60sp"
+                        android:src="@drawable/groww">
+
+                    </de.hdodenhof.circleimageview.CircleImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="05sp"
+                        android:text="Groww " />
+
+                </LinearLayout>
 
             </LinearLayout>
+
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="-10sp"
-                android:orientation="vertical">
+                android:layout_marginTop="25sp"
+                android:gravity="center"
+                android:orientation="horizontal">
 
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:id="@+id/Drive"
-                    android:layout_width="60sp"
-                    android:layout_height="60sp"
-                    android:src="@drawable/img13">
-
-
-                </de.hdodenhof.circleimageview.CircleImageView>
-
-                <TextView
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="12sp"
-                    android:text="Drive" />
+                    android:orientation="vertical">
 
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:id="@+id/Gpay"
-                    android:layout_width="60sp"
-                    android:layout_height="60sp"
-                    android:layout_marginLeft="80sp"
-                    android:layout_marginTop="-80sp"
-                    android:src="@drawable/img14">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/Linkedin"
+                        android:layout_width="60sp"
+                        android:layout_height="60sp"
+                        android:src="@drawable/linkedin">
 
 
-                </de.hdodenhof.circleimageview.CircleImageView>
+                    </de.hdodenhof.circleimageview.CircleImageView>
 
-                <TextView
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="05sp"
+                        android:text="Linkedin" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="95sp"
-                    android:text="Gpay" />
+                    android:layout_marginStart="20sp"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/playmusic"
+                        android:layout_width="60sp"
+                        android:layout_height="60sp"
+                        android:src="@drawable/playmusic">
 
 
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:id="@+id/Hotstar"
-                    android:layout_width="60sp"
-                    android:layout_height="60sp"
-                    android:layout_marginLeft="160sp"
-                    android:layout_marginTop="-80sp"
-                    android:src="@drawable/img15">
+                    </de.hdodenhof.circleimageview.CircleImageView>
 
-                </de.hdodenhof.circleimageview.CircleImageView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="playmusic" />
+                </LinearLayout>
 
-                <TextView
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="170sp"
-                    android:text="Hotstar" />
+                    android:layout_marginStart="20sp"
+                    android:orientation="vertical">
 
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:id="@+id/Flipcart"
-                    android:layout_width="60sp"
-                    android:layout_height="60sp"
-                    android:layout_marginLeft="240sp"
-                    android:layout_marginTop="-80sp"
-                    android:src="@drawable/img16">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/Photos"
+                        android:layout_width="60sp"
+                        android:layout_height="60sp"
+                        android:src="@drawable/photo">
 
-                </de.hdodenhof.circleimageview.CircleImageView>
+                    </de.hdodenhof.circleimageview.CircleImageView>
 
-                <TextView
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="05sp"
+                        android:text="Photos" />
+
+                </LinearLayout>
+
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="250sp"
-                    android:text="Flipcart " />
+                    android:layout_marginStart="20sp"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/Snapchat"
+                        android:layout_width="60sp"
+                        android:layout_height="60sp"
+                        android:src="@drawable/shapshat">
+
+                    </de.hdodenhof.circleimageview.CircleImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Snapchat " />
+
+                </LinearLayout>
 
             </LinearLayout>
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="-30sp"
-                android:orientation="vertical">
 
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:id="@+id/Spotify"
-                    android:layout_width="60sp"
-                    android:layout_height="60sp"
-                    android:src="@drawable/img17">
-
-
-                </de.hdodenhof.circleimageview.CircleImageView>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10sp"
-                    android:text="Spotify" />
-
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:id="@+id/Github"
-                    android:layout_width="60sp"
-                    android:layout_height="60sp"
-                    android:layout_marginLeft="80sp"
-                    android:layout_marginTop="-80sp"
-                    android:src="@drawable/img">
-
-
-                </de.hdodenhof.circleimageview.CircleImageView>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="90sp"
-                    android:text="Github" />
-
-
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:id="@+id/Angelone"
-                    android:layout_width="60sp"
-                    android:layout_height="60sp"
-                    android:layout_marginLeft="160sp"
-                    android:layout_marginTop="-80sp"
-                    android:src="@drawable/download">
-
-                </de.hdodenhof.circleimageview.CircleImageView>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="165sp"
-                    android:text="Angelone" />
-
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:id="@+id/Groww"
-                    android:layout_width="60sp"
-                    android:layout_height="60sp"
-                    android:layout_marginLeft="240sp"
-                    android:layout_marginTop="-80sp"
-                    android:src="@drawable/images">
-
-                </de.hdodenhof.circleimageview.CircleImageView>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="250sp"
-                    android:text="Groww " />
-
-            </LinearLayout>
 
         </LinearLayout>
 
-    </LinearLayout>
+        </LinearLayout>
+
 
 </LinearLayout>

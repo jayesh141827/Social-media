@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.webapplication"
+    namespace = "com.example.Socialmedia"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.webapplication"
+        applicationId = "com.example.Socialmedia"
         minSdk = 26
         targetSdk = 34
         versionCode = 1
